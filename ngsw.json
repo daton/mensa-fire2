@@ -1,0 +1,82 @@
+{
+  "configVersion": 1,
+  "timestamp": 1574239120374,
+  "index": "/mensa-fire2/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/mensa-fire2/favicon.ico",
+        "/mensa-fire2/index.html",
+        "/mensa-fire2/main-es2015.0ec87c05d441641aca32.js",
+        "/mensa-fire2/main-es5.0ec87c05d441641aca32.js",
+        "/mensa-fire2/manifest.webmanifest",
+        "/mensa-fire2/polyfills-es2015.0ef207fb7b4761464817.js",
+        "/mensa-fire2/polyfills-es5.2b9ce34c123ac007a8ba.js",
+        "/mensa-fire2/runtime-es2015.a1b9edfceedeb71cdc4b.js",
+        "/mensa-fire2/runtime-es5.a1b9edfceedeb71cdc4b.js",
+        "/mensa-fire2/styles.3ff695c00d717f2d2a11.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "lazyapp",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/mensa-fire2/5-es2015.4dd80a72d01aba796f45.js",
+        "/mensa-fire2/5-es5.4dd80a72d01aba796f45.js",
+        "/mensa-fire2/firebase-messaging-sw.js"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "pwa",
+      "patterns": [
+        "https:\\/\\/daton\\.herokuapp\\.com"
+      ],
+      "strategy": "freshness",
+      "maxSize": 10,
+      "maxAge": 86400000,
+      "timeoutMs": 5000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/mensa-fire2/5-es2015.4dd80a72d01aba796f45.js": "c53d083f63e7671fa18db8a88f9887832c259520",
+    "/mensa-fire2/5-es5.4dd80a72d01aba796f45.js": "c53d083f63e7671fa18db8a88f9887832c259520",
+    "/mensa-fire2/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/mensa-fire2/firebase-messaging-sw.js": "ff68781816e462e01f27feb411da69b5cdde493c",
+    "/mensa-fire2/index.html": "b8a5f86323c5a404f716382cf76e43710d726492",
+    "/mensa-fire2/main-es2015.0ec87c05d441641aca32.js": "64f0c052ba21dcb5669ddc55cae60b9e24e7ad35",
+    "/mensa-fire2/main-es5.0ec87c05d441641aca32.js": "663235581ccc29e9cd720ebfb3d5b6c1172e54cc",
+    "/mensa-fire2/manifest.webmanifest": "e04bc7721e07a6591eeda06c40d9605a724e217e",
+    "/mensa-fire2/polyfills-es2015.0ef207fb7b4761464817.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
+    "/mensa-fire2/polyfills-es5.2b9ce34c123ac007a8ba.js": "45c51483238468881240579c3fdecd19144cff17",
+    "/mensa-fire2/runtime-es2015.a1b9edfceedeb71cdc4b.js": "00b4be1505ac4b5d1a9cddd1102106ce2fc7f87d",
+    "/mensa-fire2/runtime-es5.a1b9edfceedeb71cdc4b.js": "1c4a91138a2f21221507159ed0a193dd8f894f55",
+    "/mensa-fire2/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
